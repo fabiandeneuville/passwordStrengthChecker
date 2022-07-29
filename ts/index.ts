@@ -38,9 +38,9 @@ const symbolsRegexp : RegExp = /[#?!@$%^&*-]/;
 const onlyNumbers : RegExp = /^[0-9]+$/;
 const onlyLowercases : RegExp = /^[a-z]+$/;
 const onlyUppercases : RegExp = /^[A-Z]+$/;
-const onlyLetters : RegExp = /^[a-zA-Z]+$/;
-const lettersAndNumbers : RegExp = /^[a-zA-Z0-9]+$/;
-const lettersNumbersAndSymbols : RegExp = /^[a-zA-Z0-9#?!@$%^&*-_]+$/;
+const onlyLetters : RegExp = /^(?=.*?[A-Z])(?=.*?[a-z])[a-zA-Z]+$/;
+const lettersAndNumbers : RegExp = /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])[a-zA-Z0-9]+$/;
+const lettersNumbersAndSymbols : RegExp = /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).+$/;
 
 /********** EVENT LISTENERS **********/
 

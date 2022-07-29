@@ -11,16 +11,16 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    transition: all 0.5s ease;
+    transition: all 1s ease;
     background-color: lightgray;
 }
 
 .main-container {
     width: 280px;
     height: 450px;
-    background-color: white;
+    background: linear-gradient(45deg, white, lightgray, white, lightgray, gray);
+    box-shadow: 3px 3px 25px 3px #333;
     border-radius: 10px;
-    border: 3px solid black;
 }
 
 
@@ -42,8 +42,8 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    box-shadow: 3px 3px 25px 3px #333;
     border-radius: 50%;
-    border: 3px solid black;
     overflow: hidden;
 }
 
@@ -125,7 +125,7 @@ body {
     transform: translateX(-50%) rotate(180deg);
     width: 55px;
     height: 20px;
-    border-top: 2px solid black;
+    border-top: 2px solid crimson;
     border-radius: 50%;
 }
 

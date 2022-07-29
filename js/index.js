@@ -29,9 +29,9 @@ const symbolsRegexp = /[#?!@$%^&*-]/;
 const onlyNumbers = /^[0-9]+$/;
 const onlyLowercases = /^[a-z]+$/;
 const onlyUppercases = /^[A-Z]+$/;
-const onlyLetters = /^[a-zA-Z]+$/;
-const lettersAndNumbers = /^[a-zA-Z0-9]+$/;
-const lettersNumbersAndSymbols = /^[a-zA-Z0-9#?!@$%^&*-_]+$/;
+const onlyLetters = /^(?=.*?[A-Z])(?=.*?[a-z])[a-zA-Z]+$/;
+const lettersAndNumbers = /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])[a-zA-Z0-9]+$/;
+const lettersNumbersAndSymbols = /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).+$/;
 /********** EVENT LISTENERS **********/
 passwordInput.addEventListener('keyup', (e) => {
     moveEyes(e);
