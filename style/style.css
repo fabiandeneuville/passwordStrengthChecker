@@ -12,6 +12,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     transition: all 0.5s ease;
+    background-color: lightgray;
 }
 
 .main-container {
@@ -19,7 +20,7 @@ body {
     height: 450px;
     background-color: white;
     border-radius: 10px;
-    border: 3px solid #333;
+    border: 3px solid black;
 }
 
 
@@ -42,7 +43,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
-    border: 3px solid #333;
+    border: 3px solid black;
     overflow: hidden;
 }
 
