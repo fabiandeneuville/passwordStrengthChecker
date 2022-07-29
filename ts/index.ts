@@ -96,7 +96,7 @@ function displayText(input : HTMLInputElement, text: HTMLParagraphElement, regex
         text.style.opacity = "1";
         text.style.color = "green";
     } else {
-        text.style.opacity = "0.1";
+        text.style.opacity = "0.3";
         text.style.color = "black";
     }
 
