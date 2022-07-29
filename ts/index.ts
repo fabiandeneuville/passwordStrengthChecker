@@ -24,7 +24,7 @@ const verybad : string = 'crimson';
 const bad : string = 'orange';
 const average : string = 'yellow';
 const good : string = 'lightgreen';
-const verygood : string = 'green';
+const verygood : string = 'limegreen';
 
 /********** REGEXP **********/
 
@@ -74,12 +74,10 @@ function checkPassword(password: string, regexp: RegExp) : void {
         mouth.style.transform = "translateX(-50%) rotate(360deg)"
         leftEyebrow.style.transform = "rotate(45deg)";
         rightEyebrow.style.transform = "rotate(-45deg)";
-        face.style.backgroundColor = "indianred";
     } else {
         mouth.style.transform = "translateX(-50%) rotate(180deg)"
         leftEyebrow.style.transform = "rotate(0)";
         rightEyebrow.style.transform = "rotate(0)";
-        face.style.backgroundColor = "antiquewhite";
     }
 
     displayText(passwordInput, uppercasesText, upperCasesRegexp);
