@@ -5,5 +5,6 @@ Visible [here](https://fabiandeneuville.github.io/passwordStrengthChecker/).
 
 Stack : HTML, CSS, TypeScript
 
-![screenshot](https://user-images.githubusercontent.com/94392055/181748909-2f2c9a21-5391-49d9-9514-cb4df16e4c8a.png)
+![brute_force](https://user-images.githubusercontent.com/94392055/181790260-600481a9-278d-4add-9449-67faf9934b67.png)
+
 
