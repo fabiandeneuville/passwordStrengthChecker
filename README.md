@@ -3,7 +3,7 @@ An animated password strength checker.
 
 Visible [here](https://fabiandeneuville.github.io/passwordStrengthChecker/).
 
-![password](https://user-images.githubusercontent.com/94392055/181846215-2d7a32a3-c895-43fc-a433-03a56cd4e8bd.png)
+![password-checker](https://user-images.githubusercontent.com/94392055/181904321-6810f7ee-0bdf-427c-873a-edc18fd1ba16.png)
 
 Stack : HTML, CSS, TypeScript
 
